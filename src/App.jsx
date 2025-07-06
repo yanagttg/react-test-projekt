@@ -4,9 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './index.css'
 
-import About from './components/About';
+import About from './About';
 import { ThemeSwitch } from './components/ThemeSwitch/ThemeSwitch';
-import { Counter } from './components/Counter/Counter';
+import { Counter } from './components/Counter/Сounter';
 
 function App() {
   const [count, setCount] = useState(0)
