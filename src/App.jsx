@@ -11,6 +11,10 @@ import { Counter } from './components/Counter/Counter.jsx';
 function App() {
   const [count, setCount] = useState(0)
 
+  const handleIncrement = () => {
+    setCount(prevCount => prevCount + 1);
+  }
+
   return (
     <>
       <About />
