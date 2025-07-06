@@ -5,13 +5,15 @@ import './App.css'
 import './index.css'
 
 import About from './components/About';
+import { ThemeSwitch } from './components/ThemeSwitch/ThemeSwitch'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <About />    </>
+      <About />
+      <ThemeSwitch></ThemeSwitch>    </>
   )
 }
 
