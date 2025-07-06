@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  transition: background-color 0.3s ease, color 0.3 ease;
+}
+
+/* Стили для темной темы */
+body.dark {
+  background-color: #242424; /* Или другой темный цвет */
+  color: #ffffff; /* Светлый цвет текста */
+}
+
+/* Стили для светлой темы */
+body.light {
+  background-color: #ffffff; 
+  color: #213547; /* Темный цвет текста */
+}
