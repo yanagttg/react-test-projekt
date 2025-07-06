@@ -5,7 +5,8 @@ import './App.css'
 import './index.css'
 
 import About from './components/About';
-import { ThemeSwitch } from './components/ThemeSwitch/ThemeSwitch'
+import { ThemeSwitch } from './components/ThemeSwitch/ThemeSwitch';
+import { Counter } from './components/Counter/Counter';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,9 @@ function App() {
   return (
     <>
       <About />
-      <ThemeSwitch></ThemeSwitch>    </>
+      <ThemeSwitch></ThemeSwitch>
+      <Counter count={count} onIncrement={handleIncrement} />
+         </>
   )
 }
 
