@@ -6,7 +6,7 @@ import './index.css'
 
 import About from './About';
 import { ThemeSwitch } from './components/ThemeSwitch/ThemeSwitch';
-import { Counter } from './components/Counter/Сounter';
+import { Counter } from './components/Counter/Counter';
 
 function App() {
   const [count, setCount] = useState(0)
